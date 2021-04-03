@@ -1,0 +1,105 @@
+
+* {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+    font-size: 9px;
+}
+game-board {
+    position: absolute;
+    display: block;
+    top: 120px;
+    left: 408px;
+}
+throwing-board {
+    position: absolute;
+    display: block;
+    left: 480px;
+    top: 0px;
+}
+
+game-element {
+    display: block;
+    width: 960px;
+    height: 576px;
+    background-size: 960px 576px;
+    position: relative;
+}
+
+game-board-field {
+    /* border: 1px dashed seagreen; */
+    box-sizing: border-box;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+}
+
+#score {
+    position: absolute;
+    left: 120px;
+    top: 192px;
+    z-index: 10;
+}
+#top {
+    position: absolute;
+    left: 120px;
+    top: 120px;
+    z-index: 10;
+}
+
+#virusCount {
+    position: absolute;
+    left: 840px;
+    top: 504px;
+    z-index: 10;
+}
+
+#levelCount {
+    position: absolute;
+    left: 840px;
+    top: 360px;
+    z-index: 10;
+}
+
+#sc {
+    position: absolute;
+    left: 288px;
+    top: 192px;
+    z-index: 20;
+}
+
+#go {
+    position: absolute;
+    left: 336px;
+    top: 192px;
+    z-index: 20;
+}
+#goMario {
+    position: absolute;
+    left: 720px;
+    top: 72px;
+    z-index: 30;
+    width: 168px;
+    height: 168px;
+}
+
+#score > img, #top > img, #virusCount > img, #levelCount > img {
+    width: 24px;
+    height: 24px;
+}
+
+#game-container {
+    width: 960px;
+    height: 576px;
+}
+
+dancing-virus {
+    width: 96px;
+    height: 72px;
+    display: block;
+    position: absolute;
+    background-size: 96px 72px;
+}
